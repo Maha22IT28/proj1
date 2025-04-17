@@ -1,0 +1,87 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.card {
+    height: 100%;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+
+.exercise-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 1rem;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .col.py-3 {
+        margin-left: 16.66667%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col.py-3 {
+        margin-left: 16.66667%;
+    }
+}
+
+.btn-primary {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    border-color: #e5e7eb;
+}
+
+.btn-light:hover {
+    background-color: #f3f4f6;
+    border-color: #e5e7eb;
+}
+
+.text-primary {
+    color: #3b82f6 !important;
+}
+
+.nav-link.active {
+    background-color: #ffffff !important;
+}
+
+.bi {
+    font-size: 1.2rem;
+}
+
